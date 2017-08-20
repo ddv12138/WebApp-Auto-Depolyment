@@ -1,0 +1,8 @@
+@CHARSET "UTF-8";
+html{background:#FFF url(01.jpg) no-repeat 0 0 fixed }
+*{
+	color:white;
+}
+input{
+	background-color:black;
+}
