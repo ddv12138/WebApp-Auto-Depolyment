@@ -20,7 +20,7 @@
 
   Class.forName("com.mysql.jdbc.Driver");
 
-Connection con=DriverManager.getConnection("jdbc:mysql://123.207.119.24:3306/stuman?useUnicode=true&characterEncoding=utf-8","root","liukang");
+Connection con=DriverManager.getConnection("jdbc:mysql://mysql-server:3306/stuman?useUnicode=true&characterEncoding=utf-8","root","liukang");
 
   Statement stmt=con.createStatement();
 
