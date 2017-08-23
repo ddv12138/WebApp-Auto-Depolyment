@@ -30,6 +30,7 @@ else
 fi
 
 echo "当前路径：${PWD}"
+echo "切换到路径${PWD}" && cd ${PWD}
 echo "启动mysql-server"
 docker run -d -p 3306:3306 --name ${mysqlname} -v ${pwd}/mysql-init/mysql-data/:/var/lib/mysql/ mysql:5.7
 echo "启动tomcat-server"

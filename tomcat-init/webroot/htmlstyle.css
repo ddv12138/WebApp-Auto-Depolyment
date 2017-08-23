@@ -1,0 +1,23 @@
+html{
+    text-align: center;
+    //background: #FFF url(02.jpg) round 0 0 local;
+}
+* {
+    background-color:grey;
+    color: white;
+}
+a {
+    text-decoration: none;
+    text-align: center;
+    font-size:30px;
+}
+a:hover {
+    text-decoration: underline;
+    color: green;
+}
+div{
+    margin:10px auto; width:400px; height:100px;border:solid 1px;
+}
+#buttom{
+    position:relative;left:0;font-size:20px
+}
